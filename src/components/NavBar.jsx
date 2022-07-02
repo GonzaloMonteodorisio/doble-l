@@ -1,6 +1,6 @@
 // import React from 'react';
 
-function NavBar() {
+const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid Block__NavBar--toggle">
