@@ -1,0 +1,13 @@
+a.nav-link {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px; }
+
+.nav-link:hover {
+  background-color: black;
+  color: red !important; }
+
+li a.nav-link {
+  color: white; }
