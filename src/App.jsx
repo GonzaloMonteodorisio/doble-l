@@ -1,12 +1,12 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import Header from './components/Header';
 import React from 'react';
 
 function App() {
   return (
-  <React.StrictMode>
-    <NavBar />
-  </React.StrictMode>
+  <div className="app background__color--font">
+    <Header />
+  </div>
   )
 }
 

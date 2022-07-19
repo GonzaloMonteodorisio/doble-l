@@ -1,0 +1,18 @@
+.header {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: header;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.Header__Container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: header;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+/*# sourceMappingURL=header.css.map */
