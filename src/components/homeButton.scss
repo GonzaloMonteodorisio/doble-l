@@ -1,0 +1,23 @@
+.section2btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.Button__Home--Pedido {
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, red, rgb(139, 3, 3));
+    font-size: 20px;
+    color: white;
+    padding: 4px;
+    width: 170px;
+    height: 70px;
+    cursor: pointer;
+}
+.Button__Home--Pedido:hover.Button__Home--Pedido {
+    color: black;
+    background-color: black;
+}
