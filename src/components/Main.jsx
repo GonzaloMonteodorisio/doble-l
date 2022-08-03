@@ -8,11 +8,11 @@ import welcomeImage from '../images/logos/variedad-quesos-fondo-negro_modif1.jpg
 class Main extends Component {
     render() {
         return (
-            <React.Fragment>
+            <main>
                 <Welcome welcomeImage={welcomeImage} message="Bienvenidos"/>
                 <HomeButton message="Hacer Un Pedido"/>
                 <Brands message="Nuestras Marcas"/>
-            </React.Fragment>
+            </main>
         ); 
     }  
 }

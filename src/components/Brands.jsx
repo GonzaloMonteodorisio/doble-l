@@ -16,12 +16,12 @@ class Brands extends Component {
                     <h1 className="Marcas__txt">{this.props.message}</h1>
                 </section>
                 {/* Fix that SHIT!! */}
-                <section class="logos__marcas--img"> 
+                <section className="logos__marcas--img"> 
                     <Brand brand="paulina" brandLogo={paulinaImage} brandText="La Paulina" />
                     <Brand brand="paladini" brandLogo={paladiniImage} brandText="Paladini" />
                     <Brand brand="calchaqui" brandLogo={calchaquiImage} brandText="Calchaqui" />
                 </section>
-                <section class="logos__marcas--img">
+                <section className="logos__marcas--img">
                     <Brand brand="bocatti" brandLogo={bocattiImage} brandText="Bocatti" />
                     <Brand brand="cagnoli" brandLogo={cagnoliImage} brandText="Cagnoli" />
                     <Brand brand="krachitos" brandLogo={krachitosImage} brandText="Krachitos" />

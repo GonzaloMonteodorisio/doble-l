@@ -6,10 +6,10 @@ import './header.css';
 class Header extends Component {
     render() {
         return (
-            <div className='header Header__Container'>
+            <header className='header Header__Container'>
                 <Logo />
                 <NavBar />
-            </div>
+            </header>
         ); 
     }  
 }

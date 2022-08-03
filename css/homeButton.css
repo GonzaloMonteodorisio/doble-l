@@ -1,0 +1,35 @@
+.section2btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1%;
+}
+
+.Button__Home--Pedido {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4%;
+  margin-bottom: 1%;
+  border: 2px solid black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(#8b0303));
+  background-image: linear-gradient(to bottom, red, #8b0303);
+  font-size: 20px;
+  color: white;
+  padding: 4px;
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.Button__Home--Pedido:hover.Button__Home--Pedido {
+  color: black;
+  background-color: black;
+}
+/*# sourceMappingURL=homeButton.css.map */
