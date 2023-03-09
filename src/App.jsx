@@ -10,7 +10,7 @@ function App() {
   return (
   <div className="app background__color--font">
     <Pruebas />
-    <Functions />
+    <Functions defaultMessage="Message default"/>
     <Header />
     <Main />
     <Footer />

@@ -8,8 +8,9 @@ class Pruebas extends Component {
         this.state = {
             message: 'React Class'
         };
+        // Este enlace es necesario para hacer que `this` funcione en el callback
+        this.updateName = this.updateName.bind(this);
     }
-
     updateName = () => {
         this.setState({message: 'React Function'});
     }
